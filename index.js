@@ -27,7 +27,7 @@ while (true) {
       remover();
       break;
     case "5":
-        console.log("Até logo!")
+      console.log("Até logo!");
       process.exit();
       break;
 

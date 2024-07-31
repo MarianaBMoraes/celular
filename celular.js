@@ -11,8 +11,9 @@ const modelo = () => {
   const cpu = prompt("Digite qual a CPU do celular: ");
   const ram = prompt("Digite o valor da memória RAM do celular: ");
   const memoria = prompt("Digite o valor da memória do celular: ");
-  const mp_camera = prompt("Digite o valor de megapixels da câmera do celular: ");
-  
+  const mp_camera = prompt(
+    "Digite o valor de megapixels da câmera do celular: "
+  );
 
   if (
     //validar os dados recebidos.
@@ -24,7 +25,6 @@ const modelo = () => {
     memoria > 0 &&
     mp_camera > 0
   ) {
-    
     return {
       // return acaba com a execução da função, por isso não faz diferença usar 'else'.
       nome,
@@ -33,7 +33,7 @@ const modelo = () => {
       cpu,
       ram,
       memoria,
-      mp_camera
+      mp_camera,
     };
   }
 
